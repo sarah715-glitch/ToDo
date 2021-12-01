@@ -21,6 +21,7 @@ This program is designed to practice my skills in Rust, using this language simp
 * [Rust](https://doc.rust-lang.org/std/str/trait.FromStr.html)
 * [Stack Overflow](https://stackoverflow.com/questions/54055139/how-to-pass-rust-backtrace-1-when-running-a-rust-binary-installed-in-debian)
 * [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
+* [Rust](https://doc.rust-lang.org/book/ch05-02-example-structs.html)
 
 # Future Work
 
