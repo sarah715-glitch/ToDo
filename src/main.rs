@@ -29,6 +29,7 @@ struct Todo {
 }
 
 impl Todo {
+    //reads saved tasks and prints them once the user asks for them to show.
     fn new() -> Result<Todo, std::io::Error> {
         let f = std::fs::OpenOptions::new()
             .write(true)
@@ -45,7 +46,7 @@ impl Todo {
         }
     }
     fn insert(&mut self, key: String) {
-        // insert a new item into our map.
+        // insert a new item into the map.
         // active state is set to true by default.
         self.map.insert(key, true);
     }
@@ -61,6 +62,7 @@ impl Todo {
         Ok(())
     }
 
+    //Completes a task which changes active state to false.
     fn complete(&mut self, key: &String) -> Option<()> {
         match self.map.get_mut(key) {
             Some(v) => Some(*v = false),
