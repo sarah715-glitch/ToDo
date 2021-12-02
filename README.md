@@ -2,7 +2,7 @@
 
 This program is designed to practice my skills in Rust, using this language to create a simple to-do list. By adding items to the list, the program will return "true" for items that have not yet been completed. Once an item has been completed, by marking it off as completed, the list will return the item as "false". 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/cVaZWHV3N3E)
 
 # Development Environment
 

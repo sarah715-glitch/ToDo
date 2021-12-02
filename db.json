@@ -1,5 +1,6 @@
 {
-  "code rust": true,
+  "make pancakes": true,
   "make tea": true,
-  "make coffee": true
+  "make coffee": true,
+  "code rust": true
 }
